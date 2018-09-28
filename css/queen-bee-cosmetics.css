@@ -169,7 +169,6 @@ img {
 .nav-link.order {
   margin-top: 9px;
   margin-bottom: 10px;
-  margin-left: 15px;
   padding: 10px;
   border: 2px solid #fdb654;
   border-radius: 11px;
@@ -645,10 +644,7 @@ img {
     margin-top: 0px;
   }
   .nav-link {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -671,8 +667,7 @@ img {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 35px;
-    float: left;
+    width: 100px;
   }
   .menu-button {
     color: #fff;
@@ -821,21 +816,16 @@ img {
   }
   .nav-link.order {
     position: static;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    width: 65px;
-    margin-left: 16px;
+    width: 100px;
     padding-left: 8px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
   }
   .section {
     padding-left: 0px;
@@ -930,9 +920,6 @@ img {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-  }
-  .nav-link.w--current {
-    margin-right: 240px;
   }
   .logo {
     display: -webkit-box;
