@@ -3,4 +3,4 @@
 inefficient / optimization testing stuff things
 
 To Do: 
-PHP and React stuffs
+NOTHING - Project Scrapped
